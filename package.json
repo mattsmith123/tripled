@@ -1,0 +1,16 @@
+{
+  "name": "tripled",
+  "version": "1.0.0",
+  "description": "Dynamic Database Denormalizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cli": "0.0.1",
+    "aws-sdk": "^2.3.16",
+    "lodash": "^4.13.1"
+  }
+}
