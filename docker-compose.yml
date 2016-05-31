@@ -1,0 +1,9 @@
+db:
+  image: fitz/dynamodb-local
+  ports:
+    - "8000:8000"
+  command: "-dbPath /db -sharedDb"
+  volumes:
+    - ./db_data:/db
+  environment:
+    VIRTUAL_HOST: dyn.docker

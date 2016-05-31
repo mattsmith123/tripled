@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.0.0-rc.5",
     "aws-cli": "0.0.1",
     "aws-sdk": "^2.3.16",
     "lodash": "^4.13.1"
